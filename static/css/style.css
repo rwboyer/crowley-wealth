@@ -174,8 +174,8 @@
 }
 
 .contact-slide-up{
-	transform: translate(-50%, -546px);
-	height: 700px !important;
+	transform: translate(-50%, -272px);
+	height: 600px !important;
 	/* top: -346px; */
 }
 
@@ -196,7 +196,8 @@ tt{
 }
 
 .h6{
-	height: 156px;
+	height: 330px;
+	top: -174px;
 }
 
 .h80px {
