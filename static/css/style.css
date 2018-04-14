@@ -153,6 +153,10 @@
 	margin-top: -15px;
 }
 
+.to{
+	transition: opacity 0.3s;
+}
+
 .w6{
 	width: 300px;
 }

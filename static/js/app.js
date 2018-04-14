@@ -7,3 +7,7 @@ $(function () {
     });
   });
 });
+
+function showdiv (d) {
+  $(d).toggleClass('o-0');
+}
