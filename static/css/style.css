@@ -154,6 +154,7 @@
 .sticky{
 	position: fixed;
 	top: 0;
+	margin-top: 0 !important;
 }
 
 .fancy {
@@ -219,6 +220,10 @@ tt{
 
 .w-15{
 	width: 15%;
+}
+
+.nt-nav{
+	margin-top: -87px;
 }
 
 .h6{
