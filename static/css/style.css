@@ -175,6 +175,8 @@
 
 .contact-slide-up{
 	transform: translate(-50%, -346px);
+	height: 500px !important;
+	/* top: -346px; */
 }
 
 .to{
@@ -185,12 +187,16 @@
 	transition: all 0.3s;
 }
 
+tt{
+	transition: transform 0.3s;
+}
+
 .w6{
 	width: 300px;
 }
 
 .h6{
-	height: 500px;
+	height: 156px;
 }
 
 .h80px {

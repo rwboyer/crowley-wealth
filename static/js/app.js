@@ -14,4 +14,5 @@ function showdiv (d) {
 
 function contact_slide(){
   $('#contact').toggleClass('contact-slide-up');
+  
 }
