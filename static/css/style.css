@@ -26,6 +26,14 @@
 	top: 60px;
 }
 
+.left--50{
+	left: 50%;
+}
+
+.translate-x--50{
+	transform: translateX(-50%);
+}
+
 .banner-top {
 	z-index: 10;
 	-webkit-box-sizing: content-box;
@@ -165,12 +173,24 @@
 	margin-top: -15px;
 }
 
+.contact-slide-up{
+	transform: translate(-50%, -346px);
+}
+
 .to{
 	transition: opacity 0.3s;
 }
 
+.ta{
+	transition: all 0.3s;
+}
+
 .w6{
 	width: 300px;
+}
+
+.h6{
+	height: 500px;
 }
 
 .h80px {

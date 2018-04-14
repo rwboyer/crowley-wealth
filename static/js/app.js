@@ -11,3 +11,7 @@ $(function () {
 function showdiv (d) {
   $(d).toggleClass('o-0');
 }
+
+function contact_slide(){
+  $('#contact').toggleClass('contact-slide-up');
+}
