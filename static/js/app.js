@@ -9,7 +9,12 @@ $(function () {
 });
 
 function showdiv (d) {
-  $(d).toggleClass('o-0');
+  $('#'+d).toggleClass('o-0');
+}
+
+function showdiv_wwd (d) {
+  $('#what-we-do article').addClass('o-0');
+  $('#'+d).toggleClass('o-0');
 }
 
 function contact_slide(){

@@ -208,6 +208,14 @@ tt{
 	width: 300px;
 }
 
+.w-35{
+	width: 35%;
+}
+
+.w-15{
+	width: 15%;
+}
+
 .h6{
 	height: 330px;
 	top: -174px;
@@ -226,7 +234,7 @@ tt{
 }
 
 .bottom--215 {
-	bottom: -2.15rem;
+	bottom: -2.25rem;
 }
 
 .bt-1px{

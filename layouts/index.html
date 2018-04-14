@@ -41,21 +41,33 @@
   <div class="mw8 pb3 center ">
     <h2 class="pb3 f2 fw7 b--gold b--solid bt-0 bl-0 br-0 ttu">What We Do</h2>
   </div>
-  <div class="oswald flex items-stretch f5 fw1 cf relative mw8 bg-white near-black center">
-    <div class="w-50 pa5">
+  <div class="oswald flex items-stretch f6 fw1 lh-copy relative mw8 near-black center">
+    <div class="w-50 bg-white pa5">
       <p class="mt0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure voluptatum pariatur adipisci asperiores, nobis fugiat impedit deleniti hic laudantium expedita saepe cum at vero consectetur dignissimos voluptas rerum laborum ea?</p>
       <p class="mt0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius modi amet, nisi nihil repudiandae aliquid quaerat eos nobis, itaque rerum consequatur laborum, voluptatum perferendis alias dicta pariatur repellendus quasi? Sequi?</p>
+      <p class="mt0 i">Learn more&hellip;</p>
+      <h3 class="mv0 f4 fw4 gold hover-near-black ttu pointer"><a onclick="showdiv_wwd('financial-planning')" class="">Financial Planning</a></h3>
+      <h3 class="mv0 f4 fw4 gold hover-near-black ttu pointer">
+        <a onclick="showdiv_wwd('investment-management')" class="">Investment Management</a>
+      </h3>
+      <h3 class="mv0 f4 fw4 gold hover-near-black ttu pointer">
+        <a onclick="" class="">Tax Planning</a>
+      </h3>
+      <h3 class="mv0 f4 fw4 gold hover-near-black ttu pointer">
+        <a onclick="" class="">Estate Planning</a>
+      </h3>
     </div>
-    <div class="relative w-40 bg-white nb4">
-      <article class="pa5">
-        <p class="mt0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eligendi, sapiente doloremque dignissimos amet consequatur labore odio ex eius nam ducimus saepe officiis voluptates, minus maxime tenetur fugiat voluptate hic.</p>
-      </article>
+    <div id="what-we-do" class="relative w-35 bg-white nb4">
+      {{ partial "what-we-do.html" (dict "title" "Financial Planning" "body" "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi tempore aperiam odio pariatur a magnam voluptates sunt numquam minima veritatis quam voluptatem, debitis dolore, dolorem nesciunt. Eveniet beatae vero delectus." "opacity" "o-1" "id" "financial-planning")}}
+      {{ partial "what-we-do.html" (dict "title" "Investment Management" "body" "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi tempore aperiam odio pariatur a magnam voluptates sunt numquam minima veritatis quam voluptatem, debitis dolore, dolorem nesciunt. Eveniet beatae vero delectus." "opacity" "o-0" "id" "investment-management")}}
+
       <div class="absolute w-100 bottom--215">
         <svg class="w-100 h2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="white" points="0,100 100,0 0,0" />
         </svg>
       </div>
     </div>
+    <div class="w-15" style="background: url('/img/gabriel-garcia-marengo-40906-unsplash.jpg')"></div>
   </div>
 </section>
 <section class="w-100 bg-gold center lh-copy">
