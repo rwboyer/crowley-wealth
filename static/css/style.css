@@ -8,8 +8,16 @@
 
 /* Colors */
 
+.royal-blue{
+	color: #001688;
+}
+
+.bg-royal-blue{
+	background-color: #001688;
+}
+
 .bg-light-gold{
-	background-color: #fdc851
+	background-color: #fdc851;
 }
 
 /* Custom */
