@@ -12,7 +12,7 @@
 <section class="w-100 bg-washed-yellow pv4 center">
   <div class="mw8 lh-solid center">
     <h2 class="royal-blue pb3 f2 fw7 b--gold b--solid bt-0 bl-0 br-0 ttu">Who We Are</h2>
-    <div class="bg-white flex flex-wrap items-start">
+    <div class="bg-white flex flex-wrap items-start shadow-4">
       <div class="w-100 w-50-ns">
         <div class="oswald f5 fw3 ma5 black-70 lh-copy">
           <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatum dolorum cupiditate officia iusto impedit voluptatem error possimus nemo, doloribus maiores laudantium necessitatibus sunt. Dolor optio consequatur iusto commodi dolorem!</p>
@@ -57,7 +57,7 @@
         <a onclick="" class="">Estate Planning</a>
       </h3>
     </div>
-    <div id="what-we-do" class="relative w-35 bg-white nb4">
+    <div id="what-we-do" class="relative w-35 bg-white nb4 shadow-4">
       {{ partial "what-we-do.html" (dict "title" "Financial Planning" "body" "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi tempore aperiam odio pariatur a magnam voluptates sunt numquam minima veritatis quam voluptatem, debitis dolore, dolorem nesciunt. Eveniet beatae vero delectus." "opacity" "o-1" "id" "financial-planning")}}
       {{ partial "what-we-do.html" (dict "title" "Investment Management" "body" "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi tempore aperiam odio pariatur a magnam voluptates sunt numquam minima veritatis quam voluptatem, debitis dolore, dolorem nesciunt. Eveniet beatae vero delectus." "opacity" "o-0" "id" "investment-management")}}
 
@@ -93,5 +93,28 @@
     </div>
   </div>
 </section>
-
+<section class="w-100 bg-washed-yellow pv6 center">
+  <div class="flex justify-center mw8 ph5 bg-white near-black center">
+    <article class="w-60 bg-white pa4 fw1 nt5 nb5 shadow-4">
+      <h2 class="royal-blue f2 fw7 ttu"><span>Post Title</span></h2>
+      <p class="royal-blue pv3 b--gold bt bb i tc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae at explicabo, aspernatur quae nulla, nostrum asperiores repudiandae harum adipisci error deleniti ipsum maiores sequi fugiat optio. Rerum, voluptatem? Corrupti, neque.</p>
+      <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam voluptatem, obcaecati dolorem culpa, quidem, eaque quo voluptas itaque cupiditate eligendi repellendus? Saepe exercitationem at laudantium vitae dolorem nobis iste necessitatibus?</p>
+      <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, assumenda ea nam laboriosam laborum quisquam molestias doloribus similique odio molestiae provident maxime quaerat at harum iusto placeat consequatur quasi esse!</p>
+    </article>
+    <div class="oswald flex-grow-1 ml5 mv5 ba b--black-30">
+      <article class="ma3 ba b--black-30 tc">
+        <h3 class="f5 fw5 pv3">Post Title</h3>
+        <a href="#" class="neuton db w-100 pa3 f6 tracked fw1 link bg-royal-blue white i">Read More</a>
+      </article>
+      <article class="ma3 ba b--black-30 tc">
+        <h3 class="f5 fw5 pv3">Post Title</h3>
+        <a href="#" class="neuton db w-100 pa3 f6 tracked fw1 link bg-royal-blue white i">Read More</a>
+      </article>
+      <article class="ma3 ba b--black-30 tc">
+        <h3 class="f5 fw5 pv3">Post Title</h3>
+        <a href="#" class="neuton db w-100 pa3 f6 tracked fw1 link bg-royal-blue white i">Read More</a>
+      </article>
+    </div>
+  </div>
+</section>
 {{ end }}
