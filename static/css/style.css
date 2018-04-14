@@ -151,6 +151,11 @@
 	transform: rotate(20deg);
 }
 
+.sticky{
+	position: fixed;
+	top: 0;
+}
+
 .fancy {
 	overflow: hidden;
 	text-align: center;
