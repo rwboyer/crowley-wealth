@@ -15,13 +15,9 @@
     <div class="bg-white flex flex-wrap items-stretch shadow-4">
       <div class="w-100 w-50-ns">
         <div class="oswald f5 fw3 ma5 black-70 lh-copy">
-          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatum dolorum cupiditate officia iusto impedit voluptatem error possimus nemo, doloribus maiores laudantium necessitatibus sunt. Dolor optio consequatur iusto commodi dolorem!</p>
-          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatum dolorum cupiditate officia iusto impedit
-            voluptatem error possimus nemo, doloribus maiores laudantium necessitatibus sunt. Dolor optio consequatur iusto commodi
-            dolorem!</p>
-          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatum dolorum cupiditate officia iusto impedit
-              voluptatem error possimus nemo, doloribus maiores laudantium necessitatibus sunt. Dolor optio consequatur iusto commodi
-              dolorem!</p>
+          <p class="">At Crowley Wealth Management, we take a comprehensive approach to wealth management. We build long term relationships with our clients in order to help them plan for the future and reach their financial goals.</p>
+          <p class="">More than just your average firm, we go above and beyond with our team of expert advisors who are trained in all areas of wealth management including financial planning, investment management, tax planning, and estate planning. Our advisors have many years of experience and strong educational backgrounds in all areas of wealth management. We work with you not only during the asset accumulation stage, but also during your retirement and we help you with planning for the transfer of your wealth to future generations.</p>
+          <p class="">Founded by two brothers - Fred and Bob Crowley - in 1980, we remain a family-owned firm serving clients all over the country. We operate as a fee-based, personal service business that you can trust; we do not sell financial products or earn commissions.</p>
         </div>
       </div>
       <div class="w-100 w-50-ns" style="background-image: url('/img/dummy-1.jpg')">
@@ -43,24 +39,25 @@
   </div>
   <div class="oswald flex items-stretch f6 fw1 lh-copy relative mw8 near-black center">
     <div class="w-50 bg-white pa5">
-      <p class="mt0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure voluptatum pariatur adipisci asperiores, nobis fugiat impedit deleniti hic laudantium expedita saepe cum at vero consectetur dignissimos voluptas rerum laborum ea?</p>
-      <p class="mt0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius modi amet, nisi nihil repudiandae aliquid quaerat eos nobis, itaque rerum consequatur laborum, voluptatum perferendis alias dicta pariatur repellendus quasi? Sequi?</p>
+      <p class="mt0">With our in-depth knowledge of all areas of wealth management, we take care of every aspect of your financial life. Our goal is to help you and your family simplify the financial planning process, reduce costs, and maximize your resources.</p>
+      <p class="mt0"><a href="#footer" class="link royal-blue hover-gold">Contact us</a> for a free initial consultation; we would love to introduce ourselves and start building a relationship with you today.</p>
       <p class="mt0 i">Learn more&hellip;</p>
       <h3 class="mv0 f4 fw4 gold hover-near-black ttu pointer"><a onclick="showdiv_wwd('financial-planning')" class="">Financial Planning</a></h3>
       <h3 class="mv0 f4 fw4 gold hover-near-black ttu pointer">
         <a onclick="showdiv_wwd('investment-management')" class="">Investment Management</a>
       </h3>
       <h3 class="mv0 f4 fw4 gold hover-near-black ttu pointer">
-        <a onclick="" class="">Tax Planning</a>
+        <a onclick="showdiv_wwd('tax-planning')" class="">Tax Planning</a>
       </h3>
       <h3 class="mv0 f4 fw4 gold hover-near-black ttu pointer">
-        <a onclick="" class="">Estate Planning</a>
+        <a onclick="showdiv_wwd('estate-planning')" class="">Estate Planning</a>
       </h3>
     </div>
     <div id="what-we-do" class="relative w-35 bg-white nb4 shadow-4">
-      {{ partial "what-we-do.html" (dict "title" "Financial Planning" "body" "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi tempore aperiam odio pariatur a magnam voluptates sunt numquam minima veritatis quam voluptatem, debitis dolore, dolorem nesciunt. Eveniet beatae vero delectus." "opacity" "o-1" "id" "financial-planning")}}
-      {{ partial "what-we-do.html" (dict "title" "Investment Management" "body" "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi tempore aperiam odio pariatur a magnam voluptates sunt numquam minima veritatis quam voluptatem, debitis dolore, dolorem nesciunt. Eveniet beatae vero delectus." "opacity" "o-0" "id" "investment-management")}}
-
+      {{ partial "what-we-do.html" (dict "title" "Financial Planning" "body" "Financial planning is at the heart of what we do for our clients. Our experienced staff will complete a comprehensive evaluation of your current and likely future income, expenses, benefits, assets, and liabilities. They will then work with you to develop a customized financial plan designed to help you meet your future goals. We not only help you plan for events like your children’s education or your future retirement, but we also help you evaluate, understand, and manage risks in the process of doing so." "opacity" "o-1" "id" "financial-planning")}}
+      {{ partial "what-we-do.html" (dict "title" "Investment Management" "body" "We strongly believe in the core concepts of asset allocation and portfolio diversification. We work with you to evaluate and choose the correct mix of investments that is suitable for your age, risk tolerance, and future goals. We closely monitor the market and your investments. We regularly review investment choices with clients and make changes in order to stay current with the client’s financial goals. As truly independent advisors, we work with trusted custodians to manage your investments." "opacity" "o-0" "id" "investment-management")}}
+      {{ partial "what-we-do.html" (dict "title" "Tax Planning" "body" "We take wealth management a step further than most advisors by not only helping you plan for and take care of your tax liabilities, but by also preparing your Individual Income tax return for you. As part of our service, we routinely monitor your Individual Income tax situation, and we prepare and implement a plan in order to timely take care of these tax obligations. We also advise clients on how to best handle and take care of any unique tax situations that will arise from time to time." "opacity" "o-0" "id" "tax-planning")}}
+      {{ partial "what-we-do.html" (dict "title" "Estate Planning" "body" "Estate planning is not something you typically have to do every year. However, when the need arises, our advisors will work with you and other professionals to understand your intentions and provide guidance to help you establish an appropriate estate plan that meets your particular asset transfer goals. Our advisors have extensive educational backgrounds and a familiarity with your assets that enables them to help ensure all of your assets are accounted for in your estate plan, and that your plan will tie together to meet your true intentions." "opacity" "o-0" "id" "estate-planning")}}
       <div class="absolute w-100 bottom--215">
         <svg class="w-100 h2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="white" points="0,100 100,0 0,0" />
