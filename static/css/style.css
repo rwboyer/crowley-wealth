@@ -1,5 +1,6 @@
 .neuton{
-  font-family: 'Neuton', serif;
+	font-family: 'Neuton', serif;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .oswald{
@@ -162,12 +163,12 @@
 	text-align: center;
 }
 
-.fancy span {
+.fancy span.border {
 	position: relative;
 }
 
-.fancy span:before,
-.fancy span:after {
+.fancy>span:before,
+.fancy>span:after {
 	content: "";
 	position: absolute;
 	/*border-bottom: 1px solid var(--primary);*/
@@ -178,12 +179,12 @@
 	margin-top: 3px;
 }
 
-.fancy span:before {
+.fancy>span.border:before {
 	right: 100%;
 	margin-right: 15px;
 }
 
-.fancy span:after {
+.fancy>span.border:after {
 	left: 100%;
 	margin-left: 15px;
 }
