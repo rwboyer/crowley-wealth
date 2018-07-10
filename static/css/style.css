@@ -47,6 +47,10 @@
 	transform: translateX(-50%);
 }
 
+.w-cfp-logo{
+	width: 10rem;
+}
+
 .banner-top {
 	z-index: 10;
 	-webkit-box-sizing: content-box;
