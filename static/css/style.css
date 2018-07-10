@@ -184,6 +184,7 @@
 	margin-top: 0 !important;
 }
 
+@media screen and (min-width: 48em){
 .fancy {
 	overflow: hidden;
 	text-align: center;
@@ -217,6 +218,7 @@
 
 .mt-fancy{
 	margin-top: -15px;
+}
 }
 
 .contact-slide-up{
