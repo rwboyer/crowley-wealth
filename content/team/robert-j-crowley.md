@@ -7,7 +7,7 @@ team:
   id: "Rob's"
 bcolor: "white"
 background: 'bg-bottom'
-weight: 2
+weight: 3
 ---
 Robert J. Crowley (“Rob”) is a Financial Analyst at Crowley Wealth Management, Inc. In this role, Rob works closely with the firm’s wealth managers in order to deliver comprehensive financial plans to our clients. Rob assists the wealth managers in the areas of market research and portfolio management. He is responsible for collecting, tracking, and monitoring data for the firm. Rob is also in charge of the firm’s marketing and technology initiatives. Rob earned a B.S. in International Business from Rollins College in Winter Park, Florida, and he continued his education by obtaining his MBA from the Crummer Graduate School of Business at Rollins College. 
 
