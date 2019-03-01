@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section id="about" class="w-100 bg-washed-yellow pv4 center overflow-hidden" style="background-image: url('/img/03404d52-8445-11e8-b6b7-a0369f35efbc.jpeg');">
+  <div class="mw8 lh-solid center ph2 ph0-ns">
+    <div class="bg-white flex flex-wrap-reverse items-stretch shadow-4 overflow-hidden">
+      <div class="w-100 w-50-ns">
+        <h1 class="oswald royal-blue mh3 mh5-ns mt3 mt5-ns mb0 f3 fw7 lh-solid">{{.Title}}</h1>
+        <h1 class="oswald royal-blue mh3 mh5-ns mt2 mb0 f5 fw4 lh-solid">{{.Params.team.title}}</h1>
+        <div class="content oswald f5 fw3 mh3 mh5-ns mb3 mb5-ns mt0 black-70 lh-copy">
+          {{ .Content }}
+        </div>
+      </div>
+      <div class="w-100 w-50-ns cover bg-center" style="background-image: url({{.Params.image}})">
+        <img src="/img/Crowley-180620-0712.jpg" class="o-0">
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
