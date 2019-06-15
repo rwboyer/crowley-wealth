@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<section class="pv5 bg-center cover white flex items-center justify-start" style="background-image: linear-gradient(to bottom, rgba(0,68,158,0.8), rgba(0,68,158, 0.8)), url({{.Params.image}}) ;">
+  <div class="w-100">
+  <div class="mw8 ph4 center">
+    <h2 class="f2 fw7 lh-title mt0 mb3 ttu">{{.Title}}</h2>
+    {{ with .Params.subtitle }}
+    <h3 class="f3 f4 mv0">{{.}}</h3>
+    {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="flex flex-wrap">
+
+  {{/* $paginator := .Paginate .Pages */}}
+  {{ $.Scratch.Set "count" 0 }}
+  {{/* range $paginator.Pages */}}
+  {{ range .Pages }}
+
+    {{ $.Scratch.Add "count" 1 }}
+    {{ $bg := (cond (eq (mod ($.Scratch.Get "count") 2) 0) "bg-near-white" "bg-light-gray") }}
+
+    {{ $img := .Resources.GetMatch (.Params.image | default "/wtf") }}
+    {{ if $img }}
+      {{ $.Scratch.Set "img" $img.RelPermalink }}
+    {{ else }}
+      {{ $.Scratch.Set "img" .Params.image }}
+    {{ end }}
+
+    <div class="w-100 w-third-ns">
+      <div class="aspect-ratio aspect-ratio--1x1">
+        <a href={{.Permalink}} class="link aspect-ratio--object ma0 flex flex-wrap bg-center cover hide-child {{$bg}}" style="background-image: linear-gradient(to bottom, rgba(0,68,158,0.0), rgba(0,68,158, 0.0)), url({{($.Scratch.Get "img")}}) ;">
+          <div class="child pa4 w-100 flex flex-column items-center justify-center bg-white-70 lh-title tc">
+          <h2 class="w-100 mv0 f3 fw9 tracked lh-title orange">{{.Title}}</h2>
+          {{ with .Params.subtitle }}
+          <h3 class="link near-black mt1 mb0 f4 fw5">{{.}}</h3>
+          {{ end }}
+          </div>
+        </a>
+      </div>
+    </div>
+
+  {{ end }}
+
+</section>
+
+{{ end }}
