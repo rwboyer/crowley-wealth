@@ -1,7 +1,7 @@
 ---
 title: 'Saving for Retirement'
 date: "2019-05-10"
-image: "/img/Fred.jpg"
+image: "/img/blog/Retirement-2.jpg"
 link: "https://www.cnbc.com/2019/05/23/how-much-money-americans-have-in-their-401ks-at-every-age.html"
 attrib: "CNBC"
 team:
