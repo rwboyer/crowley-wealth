@@ -1,5 +1,5 @@
 ---
-title: 'Qualified Chartable Distributions'
+title: 'Qualified Charitable Distributions'
 date: "2019-03-10"
 image: "/img/blog/Charitable Giving-2.jpg"
 link: "https://www.investmentnews.com/article/20190108/FREE/190109955?template=printart"
