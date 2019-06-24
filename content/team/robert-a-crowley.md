@@ -1,5 +1,5 @@
 ---
-title: 'Robert A Crowley'
+title: 'Robert A. Crowley'
 date: "2019-02-21"
 image: "/img/Bob.jpg"
 team:

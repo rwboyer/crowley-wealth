@@ -1,5 +1,5 @@
 ---
-title: 'James P Crowley'
+title: 'James P. Crowley'
 date: "2019-02-21"
 image: "/img/CrowleyJ2.jpg"
 team:
