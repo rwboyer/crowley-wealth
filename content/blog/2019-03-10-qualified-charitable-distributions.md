@@ -1,12 +1,9 @@
 ---
 title: 'Qualified Charitable Distributions'
-date: "2019-03-10"
+date: "2019-06-15"
 image: "/img/blog/Charitable Giving-2.jpg"
 link: "https://www.investmentnews.com/article/20190108/FREE/190109955?template=printart"
 attrib: "Source: Investment News"
-team:
-  title: "CFP®, MS, JD"
-  id: "Fred's"
 bcolor: "white"
 background: 'bg-bottom'
 ---

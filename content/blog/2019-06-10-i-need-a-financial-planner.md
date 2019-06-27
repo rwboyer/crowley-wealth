@@ -4,9 +4,6 @@ date: "2019-06-10"
 image: "/img/blog/Financial Planner-2.jpg"
 link: "http://www.letsmakeaplan.org/other-resources/selecting-an-advisor"
 attrib: "Source: CFP®"
-team:
-  title: "CFP®, MS, JD"
-  id: "Fred's"
 bcolor: "white"
 background: 'bg-bottom'
 ---
