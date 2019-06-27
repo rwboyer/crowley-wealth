@@ -85,7 +85,7 @@
 </section>
 <section id="news" class="w-100 bg-washed-yellow pv6 center" style="background-image: url('/img/03404d52-8445-11e8-b6b7-a0369f35efbc.jpeg');">
   <div class="flex flex-wrap justify-center mw8 ph2 ph5-ns bg-white-ns near-black center">
-    {{ range first 1 (where .Site.Pages "Section" "blog") }}
+    {{ range first 1 (where .Site.RegularPages "Section" "blog") }}
     <article class="w-100 w-60-ns bg-white pa4 fw1 nt5 nb5-ns shadow-4">
       <h2 class="royal-blue ml3 f3 fw7 ttu"><span>{{.Title}}</span></h2>
       <p class="pv3 ph3 b--gold f4 bt bb i lh-title">{{.Summary}}</p>
@@ -96,7 +96,7 @@
     </article>
     {{ end }}
     <div class="oswald flex-grow-1 ml5-ns mv5 ba b--black-30 bg-white">
-      {{ range first 3 (after 1 (where .Site.Pages "Section" "blog")) }}
+      {{ range first 3 (after 1 (where .Site.RegularPages "Section" "blog")) }}
       <article class="ma3 ba b--black-30 tc">
         <h3 class="f5 fw5 pv3">{{.Title}}</h3>
         <a href="{{.Permalink}}" class="neuton db w-100 pa3 f6 tracked fw1 link bg-royal-blue white i hover-bg-gold">Read More</a>
