@@ -3,7 +3,7 @@ title: 'James P. Crowley'
 date: "2019-02-21"
 image: "/img/CrowleyJ2.jpg"
 team:
-  title: "BA"
+  title: "JD"
   id: "James'"
 bcolor: "white"
 background: 'bg-bottom'
